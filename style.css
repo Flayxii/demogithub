@@ -1,0 +1,38 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+body{
+
+}
+header{
+    width: 80%;
+    box-sizing: border-box;
+    margin: auto;
+}
+main{
+    width: 80%;
+    height: 75vh;
+    background: green;
+    margin: auto;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__items{
+    width: 15%;
+    background-color: rgb(241, 238, 23);
+    line-height: 4em;
+    list-style: none;
+}
+#nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+.nav__items :hover{
+    background-color: blue;
+}
